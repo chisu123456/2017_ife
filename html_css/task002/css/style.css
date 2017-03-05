@@ -1,0 +1,175 @@
+/*
+ *****reset*****
+*/
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,a,span,form,input,select,option,img,table,th,tr,td,textarea,button{
+	margin:0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+form,textarea,button,input,select,option{
+	outline: none;
+}
+a,img{
+	border:none;
+}
+table{
+	border-spacing: 0;
+	border-collapse: collapse;;
+}
+/*
+*****公共*****
+*/
+body{
+	background-color: #dedede;
+}
+.space{
+	margin:20px;
+	padding: 20px;
+	background-color: #fff;	
+}
+.space h2{
+	line-height: 2;
+	font-size: 20px;
+}
+.space h6{
+	line-height: 2;
+	font-size: 14px;
+	font-weight: normal;
+	color:#999395;
+}
+
+/*
+*****header*****
+*/
+.header{
+	position: relative;
+	height: 60px;
+	background-color: #d78316;
+	color:#fff;
+	font-family:'Microsoft YaHei','微软雅黑';
+}
+.header h1{
+	position: absolute;
+	bottom: 0px;
+	left: 40px;
+	font-size: 24px;
+}
+.header ul{
+	float:right;
+}
+.header ul li{
+	display: inline-block;
+	padding-right: 5px;
+	line-height: 60px;
+	font-size: 14px;
+}
+
+/*
+*****article*****
+*/
+.article-info{
+	padding-bottom: 5px;
+	line-height: 2;
+	font-size: 10px;
+	color:#897368;
+}
+.article p{
+	text-indent:2em;
+	line-height: 1.6;
+}
+.article img{
+	display: inline-block;
+	padding:20px 0;
+}
+
+/*
+*****gallery*****
+*/
+.picture{
+	margin:20px 0px 20px 40px;
+	padding: 10px;
+	width: 360px;
+	border:1px solid #cecece;
+}
+.picture h6{
+	text-align: center;
+}
+
+/*
+*****rank*****
+*/
+.rank div{
+	line-height: 1.6;
+}
+.rank ol{
+	margin:10px 0;
+}
+.rank ol li{
+	line-height: 1.6;
+	text-indent: 2em;
+	color:#e93825;
+}
+
+.rank table{
+	width:100%;
+	text-align: left;
+}
+.rank table td, .rank table th{
+	padding: 4px;
+	border:1px solid #cecece ;
+}
+.rank table th{
+	background-color: #d78316;
+	color:#fff;
+}
+
+/*
+*****questionnaire*****
+*/
+.questionnaire h2{
+	padding-left: 5px;
+	border-left: 2px solid #cdcdcd;
+}
+.questionnaire table{
+	width: 100%;
+}
+.questionnaire table .left{
+	text-align: left;
+}
+.questionnaire table .right{
+	padding-right: 10px;
+	width:400px;
+	text-align: right;
+}
+.questionnaire table td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+.questionnaire .button{
+	width: 100%;
+	padding: 8px 0;
+	background-color: #888;
+	color:#fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+}
+/*
+*****footer*****
+*/
+.footer{
+	height: 60px;
+	background-color: #d78316;
+}
+.footer div{
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+}
