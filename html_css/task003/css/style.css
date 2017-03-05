@@ -1,0 +1,52 @@
+
+body,div,p,img{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.wrap{
+	position: relative;
+	margin:20px 20px 0 20px;
+	padding: 20px;
+	background-color: #eee;
+}
+
+.team{
+	float: left;
+	width:160px;
+	padding: 20px;
+	border:1px solid #999;
+	background-color: #fff;
+}
+.team-name{
+	float:right;
+}
+.team-introduce{
+	margin-left:220px;
+	margin-right:140px;
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: #fff; 
+}
+.team-introduce p{
+	margin-bottom:10px;
+}
+
+.individual{
+	float: right;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+
+.individual img{
+	display: block;
+	margin: 20px;
+}
