@@ -1,0 +1,256 @@
+/*
+ *****reset*****
+*/
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,a,span,form,input,select,option,img,table,th,tr,td,textarea,button{
+	margin:0;
+	padding: 0;
+}
+form,textarea,button,input,select,option{
+	outline: none;
+}
+a,img{
+	border:none;
+}
+table{
+	border-spacing: 0;
+	border-collapse: collapse;;
+}
+/*
+*****公共*****
+*/
+body{
+	background-color: #dedede;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.clearfix{
+	*zoom:1;
+}
+h2{
+	font-size: 20px;
+	line-height: 2;
+}
+h4{
+	font-size: 16px;
+	line-height: 20px;
+	color: #606561;
+}
+h6{
+	font-weight: normal;
+}
+
+/*
+*****header*****
+*/
+.header{
+	position: relative;
+	height: 60px;
+	background-color: #333;
+	color:#fff;
+	font-family:'Microsoft YaHei','微软雅黑';
+}
+.header .logo{
+	position: absolute;
+	left:40px;
+	bottom: 12px;
+}
+.header li{
+	float:right;
+	font-size: 12px;
+	line-height: 60px;
+	list-style: none;
+}
+.header li span{
+	display: inline-block;
+	margin-right: 7px;
+	margin-left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 100%;
+	background-color: #030303;
+}
+.header li a{
+	text-decoration:none;
+	color: #fff;
+}
+
+.header li a:hover{
+	color:#a5aab0;
+}
+
+
+/*
+*****left-area*****
+*/
+.left-area{
+	margin-right: 404px;
+}
+.article{
+	margin:20px 0 20px 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+.article-info{
+	font-size: 12px;
+	line-height: 42px;
+	color: #656364;
+}
+.article p{
+	font-size: 14px;
+	line-height: 26px;
+	text-indent: 2em;
+}
+
+
+
+.gallery{
+	font-size: 0;
+}
+.gallery .picture{
+	display: inline-block;
+	margin: 10px;
+	padding:10px;
+	border: 1px solid #cecece;
+}
+.gallery .picture h6{
+	padding-bottom: 12px;
+	font-size: 12px;
+	text-align: center;
+	color: #01000b;
+}
+.third ol{
+	margin-bottom: 16px;
+}
+
+.third li{
+	margin-left: 44px;
+	line-height: 26px;
+	font-size: 16px;
+	
+}
+
+.third table{
+	width:100%;
+	font-size: 12px;
+}
+.third table th{
+	background-color: #333;
+	color:#fff;	
+}
+.third table th,.third table td{
+	padding: 6px 0px 6px 5px;
+	border: 1px solid #d0d0d0;
+}
+.third .total td{
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+
+/*
+*****right-area*****
+*/
+.right-area{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	width: 322px;
+	border:1px solid #cdcdcd;
+	box-shadow:2px 2px #838383;
+	background-color: #fff;
+	font-size: 12px; 
+}
+.right-area h3{
+	padding: 10px;
+	font-family: 'Microsoft YaHei';
+	font-size: 16px;
+	border-left: 3px solid #cdcdcd;
+}
+.right-area table{
+	width:100%;
+}
+.right-area td{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	vertical-align: top;
+}
+.right-area input{
+	font-size: 10px;
+}
+.right-area textarea{
+	width:100%;
+	height: 99px;
+	font-size: 14px;
+}
+.right-area .left{
+	width:96px;
+	padding-top: 12px;	
+	padding-right: 14px;
+	text-align: right;
+}
+.right-area .tip{
+	margin-top: 12px;
+	color: #898f85;
+}
+.right-area .last-td{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.right-area .button{
+	width:100%;
+	height:40px;
+	background-color: #3355d0;
+	color:#fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.right-area .box{
+	display: inline-block;
+	position: relative;
+}
+.right-area .box input{
+	
+}
+.right-area .box input[type="radio"] + span{
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	width: 13px;
+	height:13px;
+	border:2px solid #d1d1d1;
+	border-radius: 100%;
+}
+.right-area .box input[type="radio"]:checked + span{
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	width: 13px;
+	height:13px;
+	border:2px solid #d1d1d1;
+	border-radius: 100%;
+}
+/*
+*****footer*****
+*/
+.footer{
+	height: 60px;
+	background-color: #333;
+}
+.footer div{
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
