@@ -211,35 +211,7 @@ h6{
 	font-size: 14px;
 	font-weight: bold;
 }
-.right-area .box{
-	display: inline-block;
-	position: relative;
-}
-.right-area .box input{
-	
-}
-.right-area .box input[type="radio"] + span{
-	display: inline-block;
-	position: absolute;
-	top:0;
-	left:0;
-	z-index: 1;
-	width: 13px;
-	height:13px;
-	border:2px solid #d1d1d1;
-	border-radius: 100%;
-}
-.right-area .box input[type="radio"]:checked + span{
-	display: inline-block;
-	position: absolute;
-	top:0;
-	left:0;
-	z-index: 1;
-	width: 13px;
-	height:13px;
-	border:2px solid #d1d1d1;
-	border-radius: 100%;
-}
+
 /*
 *****footer*****
 */
