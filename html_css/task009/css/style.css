@@ -1,0 +1,791 @@
+/*****重置******/
+body,div,ul,li,img,input,table,tr,td{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+img,input{
+	border: none;
+	outline: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+/******公共******/
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+/******header******/
+.header{
+	height: 56px;
+	background-color: #2189bf;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.header .right{
+	float: right;
+	line-height: 56px;
+	font-size: 0;
+}
+.login{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 93px;
+	width: 42px;
+	font-size: 12px;
+	font-family: SimHei;
+	text-align: right;
+	text-decoration: none;
+	color: #fff;
+	background: url(../img/login-logo.png) left center no-repeat;
+}
+.header .right input{
+	height: 28px;
+	width: 278px;
+	padding: 0 18px;
+	border-radius: 14px;
+	background: url(../img/search.png) 17px center no-repeat;
+	background-color: #fff;
+}
+
+/******main******/
+/******main-left******/
+.main .left{
+	float: left;
+	height: 1210px;
+	width: 260px;
+	background-color: #2a2e3d;
+}
+
+/******main-left-portrait******/
+.user .portrait{
+	font-size: 0;
+	padding: 20px 0 26px 0;
+}
+.user .portrait span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.user .portrait span:first-child{
+	margin-left: 46px;
+	margin-right: 26px;
+	height: 46px;
+	width: 46px;
+	background-color: #bababe;
+	border:4px solid #2a2e3d; 
+	border-radius: 100%;
+	box-shadow: 0 0 0 1px #fff;
+}
+.user .portrait span:last-child{
+	line-height: 56px;
+	font-size: 16px;
+	font-family: SimHei;
+	color: #fff;
+}
+.user-info {
+	font-size: 0;
+	margin-bottom: 24px;
+}
+.user-info div{
+	display: inline-block;
+	font-size: 12px;
+	font-family: SimSun;
+	color: #6e8095;
+}
+.user-info div span{
+	font-size: 16px;
+	font-family: SimHei;
+}
+.user-info div:first-child{
+	padding-left: 63px;
+	padding-right: 31px;
+	border-right: 2px solid #313545;
+}
+.user-info div:last-child{
+	padding-left: 31px;
+}
+
+/******main-left-menu******/
+.menu>li{
+	padding-left: 45px;
+	margin-top: 36px;
+	font-size: 0;
+	color: #6e8095;
+}
+.menu li img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu li span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	font-family: SimHei;
+}
+.menu>li>img{
+	padding-right: 14px;
+}
+
+.menu .report-form{
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background-color: #383d4e;
+}
+.report-form li{ 
+	padding-top: 18px;
+}
+.report-form>ul>li>img:first-child{
+	padding-left: 22px;
+	padding-right: 8px;
+}
+.report-form>ul>li>img:last-of-type{
+padding-right: 4px;
+}
+
+.report-form>ul>li>ul>li>img{
+	padding-left: 56px;
+	padding-right: 4px;
+}
+.report-form .white{
+	color: #fff;
+}
+
+/******main-right******/
+.main .right{
+	margin-left: 260px;
+}
+/******main-right-path******/
+.main .right .path{
+	padding-left: 30px;
+	line-height: 30px;
+	font-size: 12.28px;
+	font-family: SimHei;
+	color: #aaa;
+}
+.path span{
+	display: inline-block;
+}
+.path span:first-child{
+	padding-right: 12px;
+}
+.path span:last-child{
+	color: #6898c2;
+}
+/******main-right-data******/
+.main .right .data{
+	padding: 19px 70px 155px 59px;
+	background-color: #eeedec;
+}
+
+/******main-right-data-search*****/
+.data .search{
+	margin-bottom: 8px;
+	padding: 14px 0;
+	width: 100%;
+	height: 56px;
+	border: 1px solid #dddee0;
+	border-bottom: 2px solid #e4e5e5;
+	background-color: #fff;
+}
+.search label{
+	padding-right: 15px;
+	font-size: 12px;
+	font-family: SimHei;
+	color: #aaa;
+}
+.search select{
+	height: 24px;
+	font-size: 12px;
+	font-family: SimHei;
+	border: 1px solid #cbcbcb;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.search{
+	display: table;
+	table-layout: fixed;
+}
+.search .set-par{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 0;
+}
+.search .one{
+	vertical-align: top;
+	padding-left: 29px;
+	width: 122px;
+}
+.one select{
+	padding-left: 11px;
+	padding-right: 22px;
+	background: url(../img/more-icon-04.png) no-repeat 52px;
+}
+.search .two{
+	position: relative;
+	padding-left: 38px;
+	width: 187px;
+	background: url(../img/swap.png) no-repeat right;
+}
+.two div:first-child{
+	padding-bottom: 5px;
+}
+.two select{
+	width: 119px;
+	background: url(../img/more-icon-03.png) no-repeat 102px;
+}
+.two .swap{
+	position: absolute;
+	top: 21px;
+	bottom: 21px;
+	right: 2px;
+}
+.two .swap a{
+	font-size: 12px;
+	font-family: SimHei;
+	color: #fff;
+}
+.search .three{
+	width: 323px;
+	padding-left: 32px;
+}
+.three .top{
+	margin-bottom: 5px;
+}
+.three .top input{
+	margin-right: 15px;
+	padding-left: 8px;
+	width: 108px;
+	height: 24px;
+	border: 1px solid #cbcbcb;
+	font-size: 12px;
+	font-family: SimHei;
+	color: #323333;
+}
+.three .top select{
+	padding-left: 8px;
+	width: 68px;
+	background: url(../img/more-icon-03.png) no-repeat 52px;
+}
+.three .bottom select:first-of-type{
+	margin-right: 15px;
+	padding-left: 8px;
+	width: 68px;
+	background: url(../img/more-icon-03.png) no-repeat 48px;
+}
+.three .bottom select:last-of-type{
+	padding-left: 8px;
+	width: 118px;
+	background: url(../img/more-icon-03.png) no-repeat 102px;
+}
+.search .four{
+}
+.search .four input{
+	width: 50px;
+	height: 25px;
+	background-color: #388ac1;
+	color: #fff;
+	border-radius: 3px;
+}
+
+/******main-right-data-history*****/
+.data .history{
+	display: table;
+	width: 100%;
+	height: 65px;
+	table-layout: fixed;
+}
+.history .cell{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	border-top: 1px solid #cacdd0;
+	border-left: 1px solid #cacdd0;
+	border-right: 5px solid #eeedec;
+	background-color: #fff; 
+}
+.history .more{
+	width: 29px;
+}
+.history .interval:hover{
+	height: 61px;
+	border-top: 4px solid #4288c8;
+}
+.interval .time{
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #323333;
+}
+.interval .money{
+	font-size: 21px;
+	font-family: "Microsoft YaHei";
+	color: #ec6500;
+}
+.history .history-search{
+	width: 129px;
+	border-right: none;
+	font-size: 0;
+}
+.history-search img{
+	padding-right: 11px;
+	vertical-align: -10px;
+}
+.history-search span{
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+
+/******main-right-data-statistic*****/
+.statistic .April{
+	margin: 22px 0 5px 0;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #323333;
+}
+.statistic .volume{
+	font-size: 0;
+}
+.volume .subtotal{
+	position: relative;
+	display: inline-block;
+	width: calc(25% - 26px);
+	height: 70px;
+	font-size: 10px;
+	font-family: SimHei;
+	color: #aaa;
+	background-color: #fff;
+	border: 1px solid #d8d9db;
+}
+.volume .subtotal+.subtotal{
+	margin-left: 28px;
+}
+.subtotal .square{
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	width: 60px;
+	height: 46px;
+}
+.subtotal .num{
+	position: absolute;
+	top: 20px;
+	left: 8px;
+	font-size: 12px;
+	font-family: SimHei;
+	color: #323333;
+}
+
+.subtotal div:last-child{
+	position: absolute;
+	bottom: 16px;
+	left: 8px;
+}
+.volume .green{
+	border-left: 4px solid #43b29e;
+}
+.green .square{
+	background-color: #43b29e;
+}
+.volume .blue{
+	border-left: 4px solid #398bc2;
+}
+.blue .square{
+	background-color: #398bc2;
+}
+.volume .red{
+	border-left: 4px solid #d04b36;
+}
+.red .square{
+	background-color: #d04b36;
+}
+.volume .yellow{
+	border-left: 4px solid #e2cd46;
+}
+.yellow .square{
+	background-color: #e2cd46;
+}
+
+/***********project***********/
+.project{
+	margin-top: 13px;
+	overflow: hidden;
+}
+/************tab***********/
+.tab{
+	float: left;
+
+	width: 530px;
+	height: 355px;
+	border: 1px solid #ced1d4;
+	border-radius: 3px;
+	background-color: #fff;
+	border-radius:8px; 
+	overflow: hidden;
+}
+.project .title{
+	line-height: 40px;
+	font-size: 12px;
+	font-family: SimHei;
+	text-indent: 20px;
+	color: #aaa;
+	background-color: #f4f5f6;
+	border-bottom: 1px solid #e7e8eb;
+}
+.tab ul{
+	margin-top: 12px;
+	margin-left: 20px;
+}
+.tab ul li{
+	position: relative;
+	float: left;
+	margin-right: 3px;
+	width: 86px;
+}
+.tab ul li .title-item{
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	display: block;
+	width: 84px;
+	line-height: 26px;
+	border:1px solid #ededef;
+	border-bottom: 1px solid #cbcbcc;
+	border-radius: 3px;
+	background-color: #ededef;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #535353;
+}
+.tab ul li .tab-content{ 
+	position: relative;
+	margin-top: 27px;
+	padding: 28px 49px 36px 36px;
+	width: 403px;
+	background-color: #fff;
+	border: 1px solid #cbcbcc;
+	border-radius: 3px;
+}
+.tab-content table{
+	border-collapse: collapse;
+}
+.tab-content table tr td{
+	width: 99px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+	font-family: SimSun;
+	color: #535353;
+	border: 1px solid #e9e9e9;
+}
+#content-b{
+	margin-left: -89px;
+}
+#content-c{
+	margin-left: -178px;
+}
+#content-d{
+	margin-left: -267px;
+}
+#content-e{
+	margin-left: -356px;
+}
+.tab-content:target{
+	z-index: 1;
+}
+.tab-content:target ~ .title-item{
+	background: #fff;
+	border:1px solid #cbcbcc;
+	border-bottom: 1px solid #fff;
+}
+
+/*******info******/
+.project .info{
+	float: left;
+	margin-left: 8px;
+	width: 350px;
+	height: 355px;
+	border: 1px solid #ced1d4;
+	border-radius: 8px;
+	background-color: #fff;
+}
+.info .content{
+	padding: 0 35px;
+	line-height: 18px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+.info .font-title{
+	color: #c3c2c2;
+}
+.info .font-info{
+	color: #535353;
+}
+.info .name{
+	padding: 14px 0 6px 26px;
+}
+.info .para{
+	border-top: 1px solid #e7e8e7;
+	border-bottom: 1px solid #e7e8e7;
+	overflow: hidden;
+}
+.info .para div{
+	float: left;
+	height: 43px;
+}
+.info .para .price{
+	padding-left: 14px;
+	width: 80px;
+	border-right: 1px solid #e7e8e7;
+}
+.info .para .person{
+	padding-left: 11px;
+}
+.info .detail{
+	padding-left: 14px;
+	height: 145px;
+	border-bottom: 1px solid #e7e8e7;
+}
+.info form{
+	line-height: 34px;
+	font-size: 0;
+}
+.info form input{
+	vertical-align: middle;
+}
+.info form label{
+	padding-left: 8px;
+	padding-right: 133px;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.info form button{
+	width: 50px;
+	height: 26px;
+	font-size: 12px;
+	font-family: SimHei;
+	border: none;
+	border-radius: 3px;
+	background-color: #388ac1;
+	color: #fff;
+	vertical-align: middle;
+}
+/*********calendar*********/
+.calendar{
+	float: left;
+	margin-top: 8px;
+	width: 350px;
+	height: 355px;
+	font-family: SimHei;
+	background-color: #fff;
+	border: 1px solid #ced1d4;
+	border-radius: 8px;
+}
+.calendar .date{
+	margin: 0 20px;
+}
+.calendar form{
+	line-height: 42px;
+	font-size: 0;
+	border-bottom: 1px solid #a9cfec;
+	text-align: center;
+}
+.calendar form select{
+	margin-right: 6px;
+}
+.calendar form .year{
+	width: 62px;
+}
+.calendar form .month{
+	width: 83px;
+}
+.calendar form .label{
+	width: 73px;
+}
+.calendar form button{
+	width: 62px;
+	padding: 0;
+	background-color:#fff; 
+}
+.calendar form select,.calendar form button{
+	height: 20px;
+	font-size: 12px;
+	vertical-align: middle;
+	border: 1px solid #cecfcf;
+	color: #636363;
+}
+.calendar table{
+	width: 100%;
+	color: #636363;
+	border-collapse: collapse;
+	text-align: center;
+}
+.calendar table .week{
+	height: 30px;
+	font-size: 12px;
+	border-bottom: 1px solid #e1e1e2;
+}
+.calendar table .day{
+	height: 45px;
+	font-size: 11.36px;
+}
+.calendar table .first-line td{
+	padding-top: 3px;
+}
+.calendar table td .holiday{
+	color: #c9161d;
+}
+.calendar table td .sign{
+	display: inline-block;
+	width: 39px;
+	height: 33px;
+	padding-top: 6px;
+	border: 1px solid #f4c11c;
+	vertical-align: middle;
+}
+
+/************ranking-list*************/
+.project .ranking{
+	float: left;
+	margin-top: 8px;
+	margin-left: 8px;
+	width: 530px;
+	height: 355px;
+	font-family: SimHei;
+	background-color: #fff;
+	border: 1px solid #ced1d4;
+	border-radius: 8px;
+}
+.ranking .list{
+	padding: 18px 40px 0;
+}
+.ranking .list table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	cursor:pointer;
+}
+.ranking .list table tr:hover{
+	background-color:#f4f5f6; 
+}
+.ranking .list table th{
+	height: 28px;
+	font-size: 13px;
+	color: #231815;
+	border: 1px solid #cacacb;
+}
+.ranking .list table th:first-child{
+	width: 66px;
+}
+.ranking .list table th:last-child{
+	width: 290px;
+	text-align: left;
+	text-indent: 29px;
+}
+.ranking .list table td{
+	height: 24px;
+	font-size: 12px;
+	color: #323333;
+	border: 1px solid #cacacb;
+}
+
+.ranking .list table td:last-child{
+	position: relative;
+	text-align: left;
+	text-indent: 34px;
+}
+.ranking .list .chart{
+	position: absolute;
+	top:10px;
+	right:19px;
+	width: 168px;
+	height: 4px;
+	background-color: #dddddd;
+}
+.ranking .list .chart span{
+	display: inline-block;
+	height: 4px;
+}
+.ranking .list .chart .A{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 142px;
+	background-color: #ed6e52;
+}
+.ranking .list .chart .B{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 122px;
+	background-color: #ef8150;
+}
+.ranking .list .chart .C{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 105px;
+	background-color: #f19f4f;
+}
+.ranking .list .chart .D{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 98px;
+	background-color: #7ecaf0;
+}
+.ranking .list .chart .E{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 87px;
+	background-color: #7ecaef;
+}
+.ranking .list .chart .F{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	background-color: #7ecaf0;
+}
+.ranking .list .chart .G{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75px;
+	background-color: #7ecaf0;
+}
+.ranking .list .chart .H{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65px;
+	background-color: #7ecaf0;
+}
+.ranking .list .chart .I{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	background-color: #7ecaf0;
+}
+.ranking .list .chart .J{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 55px;
+	background-color: #7ecaf0;
+}
